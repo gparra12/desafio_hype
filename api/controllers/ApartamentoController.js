@@ -5,17 +5,19 @@ class ApartamentoController {
   static async criaApartamento(req, res) {
     const { predioId } = req.params;
     const novoApartamento = { ...req.body, id_predio: Number(predioId) };
+
     try {
       const novoApartamentoCriado = await database.Apartamentos.create(
         novoApartamento
       );
 
-      return res.status(500).json(novoApartamentoCriado);
+      return res.status(200).json(novoApartamentoCriado);
     } catch (error) {
       return res.status(500).json(error.message);
     }
   }
 
+  
   // READ
   static async pegaTodosApartamentos(req, res) {
     try {
@@ -45,6 +47,7 @@ class ApartamentoController {
     }
   }
 
+
   // UPDATE
   static async atualizaApartamento(req, res) {
     const { predioId, apartamentoId } = req.params;
@@ -64,6 +67,7 @@ class ApartamentoController {
       return res.status(500).json(error.message);
     }
   }
+
 
   // DELETE
   static async deletaApartamento(req, res) {

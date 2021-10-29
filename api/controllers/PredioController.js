@@ -24,6 +24,18 @@ class PredioController {
     }
   }
 
+  static async pegaTodosApartamentosDaquelePredio(req, res) {
+    const {predioId} = req.params;
+
+    try {
+      const todosOsApartamentosDaquelePredio = await database.Apartamentos.findAll({where: { id_predio: Number(predioId) }});
+
+      return res.status(200).json(todosOsApartamentosDaquelePredio)
+    } catch (error) {
+      return res.status(500).json(error.message);
+    }
+  }
+
   static async pegaUmPredio(req, res) {
     const { id } = req.params;
     try {
