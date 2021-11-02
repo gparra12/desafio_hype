@@ -10,7 +10,7 @@ router
   .get("/predios", PredioController.pegaTodosPredios) // SELECT TODOS PRÉDIOS
   .get("/predio/:predioId/apartamentos",PredioController.pegaTodosApartamentosDaquelePredio) // SELECT TODOS APARTAMENTO DE X PREDIO)
   .get("/predio/:id", PredioController.pegaUmPredio) // SELECT 1 PRÉDIO
-  .get("/predio/:predioId/apartamento/:apartamentoId",ApartamentoController.pegaUmApartamento); // SELECT 1 APARAMENTO);
+  .get("/predio/:predioId/apartamento/:apartamentoId",ApartamentoController.pegaUmApartamento); // SELECT 1 APARTAMENTO);
 
 // POST
 router
