@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.de946ac9.chunk.css",
+    "main.js": "/static/js/main.d5e1762b.chunk.js",
+    "main.js.map": "/static/js/main.d5e1762b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ee8fcf80.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ee8fcf80.js.map",
+    "static/js/2.11c8cfc0.chunk.js": "/static/js/2.11c8cfc0.chunk.js",
+    "static/js/2.11c8cfc0.chunk.js.map": "/static/js/2.11c8cfc0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.de946ac9.chunk.css.map": "/static/css/main.de946ac9.chunk.css.map",
+    "static/js/2.11c8cfc0.chunk.js.LICENSE.txt": "/static/js/2.11c8cfc0.chunk.js.LICENSE.txt",
+    "static/media/404.d9d3129b.svg": "/static/media/404.d9d3129b.svg",
+    "static/media/apartment.397f4ef9.svg": "/static/media/apartment.397f4ef9.svg",
+    "static/media/bed.dd6e9d85.svg": "/static/media/bed.dd6e9d85.svg",
+    "static/media/ruler.e21465e7.svg": "/static/media/ruler.e21465e7.svg",
+    "static/media/shower.25cbaf2a.svg": "/static/media/shower.25cbaf2a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee8fcf80.js",
+    "static/js/2.11c8cfc0.chunk.js",
+    "static/css/main.de946ac9.chunk.css",
+    "static/js/main.d5e1762b.chunk.js"
+  ]
+}
