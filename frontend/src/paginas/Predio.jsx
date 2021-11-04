@@ -1,7 +1,16 @@
 import React from "react";
+import ListaPredio from "../components/ListaPredios";
+import { Box } from "../components/UI";
 
 const Predio = () => {
-  return <h1>PREDIO</h1>;
+  return (
+    <main>
+      <div className="container">
+        <h2 className="titulo-pagina">Predios</h2>
+      </div>
+        <ListaPredio url={"/predios"} />    
+    </main>
+  );
 };
 
 export default Predio;
