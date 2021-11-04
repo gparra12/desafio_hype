@@ -22,7 +22,7 @@ function App() {
         <Route path="/predios">
           <Predio />
         </Route>
-        <Route path="/dapartamentos">
+        <Route path="/apartamentos">
           <Apartamentos />
         </Route>
         <Route>
