@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/desafio_hype/static/css/main.de946ac9.chunk.css",
-    "main.js": "/desafio_hype/static/js/main.92495a8d.chunk.js",
-    "main.js.map": "/desafio_hype/static/js/main.92495a8d.chunk.js.map",
+    "main.js": "/desafio_hype/static/js/main.374e3914.chunk.js",
+    "main.js.map": "/desafio_hype/static/js/main.374e3914.chunk.js.map",
     "runtime-main.js": "/desafio_hype/static/js/runtime-main.daab6076.js",
     "runtime-main.js.map": "/desafio_hype/static/js/runtime-main.daab6076.js.map",
     "static/js/2.c270a4b0.chunk.js": "/desafio_hype/static/js/2.c270a4b0.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.daab6076.js",
     "static/js/2.c270a4b0.chunk.js",
     "static/css/main.de946ac9.chunk.css",
-    "static/js/main.92495a8d.chunk.js"
+    "static/js/main.374e3914.chunk.js"
   ]
 }
